@@ -5,7 +5,7 @@ Complex::Complex(float x, float y){
     i = y;
 }
 void Complex::displayData(){
-    std::cout << r << ":" << "i" << i << "\n";
+    std::cout << r << ":" << i << "i" << "\n";
 }
 Complex Complex::operator+(Complex x){
     return Complex( r + x.r, i + x.i);
