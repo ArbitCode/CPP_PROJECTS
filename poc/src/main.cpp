@@ -14,6 +14,6 @@ void complex_bar(){
 }
 
 int main(){
-    std::cout << "--* POC program *--" << std::endl;
+    std::cout << "---* POC program *---" << std::endl;
     complex_bar();
 }
