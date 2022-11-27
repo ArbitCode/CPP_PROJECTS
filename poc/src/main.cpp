@@ -8,7 +8,7 @@ void complex_bar(){
     a.displayData();
     std::cout << "b: ";
     b.displayData();
-    std:: cout << "a + b = ";
+    std:: cout << "c = ";
     Complex c = a + b;
     c.displayData();
 }
@@ -16,5 +16,5 @@ void complex_bar(){
 int main(){
     std::cout << "--* POC program *--" << std::endl;
     complex_bar();
-    std::cout << "*--- End ---*";
+    std::cout << "*--- End ---*" << std::endl;
 }
